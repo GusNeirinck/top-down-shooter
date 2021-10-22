@@ -1,1 +1,1 @@
-
+tiles.setTilemap(tilemap`bg`)
