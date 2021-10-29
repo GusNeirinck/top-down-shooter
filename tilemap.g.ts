@@ -61,7 +61,7 @@ namespace myTiles {
             case "tile4":return tile4;
             case "WALL":
             case "tile5":return tile5;
-            case "myTile":
+            case "ghost":
             case "tile1":return tile1;
         }
         return null;
