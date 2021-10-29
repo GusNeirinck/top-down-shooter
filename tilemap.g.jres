@@ -28,12 +28,6 @@
         "tilemapTile": true,
         "displayName": "WALL"
     },
-    "tile1": {
-        "data": "hwQQABAAAAAAAP//////DwD/ERERERHx8BEREREREQ8fEf//ERER8R8R//8REREPHxEREREREfEfERERERERDx8R//8RERHxHxH//xEREQ8fERERERER8R8REREREREPHxEREREREfEfERERERERD/ARERERERHxAP8REREREQ8AAP//////AA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "ghost"
-    },
     "level2": {
         "id": "level2",
         "mimeType": "application/mkcd-tilemap",
