@@ -9,11 +9,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Pete"
     },
-    "image2": {
-        "data": "hwQQABAAAAAAAP//////DwD/ERERERHx8BEREREREQ8fEf//HxER8R8R//8fEREPHxEREREREfEfERERERERDx8RERERERHxHxEREREREQ8fERERERER8R8REREREREPHxH//x8REfEfEf//HxERD/ARERERERHxAP8REREREQ8AAP//////AA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "ghost"
-    },
     "image4": {
         "data": "hwQQABAAAAAAAP//////DwD/IiIiIiLy8CIiIiIiIg8vJf//LyIi8i9S//8vUiIPLyIlIiIlIvIvIiIiIiUiDy8iIiIiJSLyLyIiIiIlIg8vIiIiIiUi8i8iJSIiUiIPL1L//y8iIvIvJf//LyIiD/AiIiIiIiLyAP8iIiIiIg8AAP//////AA==",
         "mimeType": "image/x-mkcd-f4",
@@ -28,6 +23,16 @@
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAPAAAAAAAAL/IAAAAAAAAvIg8AAAAAAPAi8gAAAAAALyIPAAAAAAAf8gAAAAAAAPAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "heart"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////w/wERERERER8fAR/x8REREP8BH/HxEREfHwERERERERD/ARERERERHx8BH/HxEREQ/wEf8fERER8fAREREREREP8BEREREREfEA////////DwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ghost"
+    },
+    "image7": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////w/wIiIiIiIi8vAi/y8iIiIP8CL/LyIiIvLwIiIiIiIiD/AiIiIiIiLy8CL/LyIiIg/wIv8vIiIi8vAiIiIiIiIP8CIiIiIiIvIA////////DwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "redGhost2"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

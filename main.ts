@@ -92,18 +92,18 @@ forever(function () {
             } else {
                 myEnemy.setPosition(150, randint(5, 110))
             }
-            myEnemy.follow(Pete, wave * 2 + 10)
+            myEnemy.follow(Pete, wave * 1.5 + 10)
             enemiesLeft += 1
         }
         if (wave > 4) {
             for (let index = 0; index < wave / 2; index++) {
-                myEnemy = sprites.create(assets.image`myImage0`, SpriteKind.Enemy)
+                myEnemy = sprites.create(assets.image`redGhost2`, SpriteKind.Enemy)
                 if (randint(0, 1) == 0) {
                     myEnemy.setPosition(6, randint(5, 110))
                 } else {
                     myEnemy.setPosition(150, randint(5, 110))
                 }
-                myEnemy.follow(Pete, wave * 3 + 10)
+                myEnemy.follow(Pete, wave * 2.5 + 10)
                 enemiesLeft += 1
             }
         }
