@@ -38,7 +38,11 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy(effects.coolRadial, 50)
-    score += 1
+    info.changeScoreBy(100)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    otherSprite.destroy(effects.coolRadial, 50)
+    info.changeLifeBy(-1)
 })
 let myEnemy: Sprite = null
 let projectile: Sprite = null
@@ -50,6 +54,8 @@ let Pete: Sprite = null
 tiles.setTilemap(tilemap`bg`)
 let score = 0
 Pete = sprites.create(assets.image`Pete`, SpriteKind.Player)
+info.setLife(3)
+info.setScore(0)
 controller.moveSprite(Pete, 100, 100)
 game.onUpdateInterval(2000, function () {
     myEnemy = sprites.create(assets.image`myImage`, SpriteKind.Enemy)
