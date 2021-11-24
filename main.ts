@@ -88,9 +88,9 @@ forever(function () {
         for (let index = 0; index < wave + 1; index++) {
             myEnemy = sprites.create(assets.image`ghost`, SpriteKind.Enemy)
             if (randint(0, 1) == 0) {
-                myEnemy.setPosition(6, randint(5, 110))
+                myEnemy.setPosition(6, randint(-5, 130))
             } else {
-                myEnemy.setPosition(150, randint(5, 110))
+                myEnemy.setPosition(150, randint(-5, 130))
             }
             myEnemy.follow(Pete, wave * 1.5 + 10)
             enemiesLeft += 1
@@ -99,9 +99,9 @@ forever(function () {
             for (let index = 0; index < wave / 2; index++) {
                 myEnemy = sprites.create(assets.image`redGhost2`, SpriteKind.Enemy)
                 if (randint(0, 1) == 0) {
-                    myEnemy.setPosition(6, randint(5, 110))
+                    myEnemy.setPosition(6, randint(-5, 130))
                 } else {
-                    myEnemy.setPosition(150, randint(5, 110))
+                    myEnemy.setPosition(150, randint(-5, 130))
                 }
                 myEnemy.follow(Pete, wave * 2.5 + 10)
                 enemiesLeft += 1
